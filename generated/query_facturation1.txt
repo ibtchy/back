@@ -1,0 +1,1 @@
+case when date_traitement isnull and statut_graphic='arc' THEN 'tarif 1' when date_traitement is not null and statut_graphic='l' THEN 'tarif 2'END AS statut_facturation\r\n
